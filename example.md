@@ -1,4 +1,4 @@
-## Basic Template Example
+# Basic Template Example
 
 ```text
 Company: {template.contactInformation.company}
