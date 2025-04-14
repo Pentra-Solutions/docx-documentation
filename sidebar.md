@@ -1,4 +1,5 @@
 - [Introduction](introduction) <!-- markdownlint-disable-line first-line-heading -->
 - [Quick Start](quick-start)
+- [Example](example)
 - **Links**
 - [![Logo](https://framerusercontent.com/images/yU23b4xerUH7vylHgv8ME1q68wg.png?scale-down-to=75)](https://app.pentra.ai)
