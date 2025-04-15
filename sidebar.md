@@ -1,5 +1,12 @@
 - [Introduction](introduction) <!-- markdownlint-disable-line first-line-heading -->
 - [Quick Start](quick-start)
+- [Tags](tags)
+- [Template Data](template-data)
+- [Loops](loops)
+- [Conditional Content](conditional-content)
+- [Filters](filters)
+- [Conversion](conversion)
+- [Best Practices](best-practices)
 - [Example](example)
 - **Links**
 - [![Logo](/assets/pentra-logo.png)](https://app.pentra.ai)

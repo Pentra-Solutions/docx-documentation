@@ -16,6 +16,4 @@ If a tag doesn't show up in the output document, the data field is likely missin
 
 Make sure the HTML is properly formed and use the `convertHTML` filter.
 
-### Image Problems (we are working on images)
-
 ?> **Need Help?** For additional assistance with template creation, refer to: [Docxtemplater Documentation](https://docxtemplater.com/docs/).
