@@ -7,7 +7,7 @@ Client: {pentest.client}
 Scope: {pentest.scope}
 
 # Executive Summary
-{@template.executiveSummary | convertHTML}
+{@template.executiveSummary | convertMarkdown}
 
 # Findings
 {#findings}
@@ -15,11 +15,11 @@ Scope: {pentest.scope}
 CVSS Score: {cvss.baseMetricScore} ({cvss.baseSeverity})
 
 ### Description
-{@description | convertHTML}
+{@description | convertMarkdown}
 
 ### Proof of Concept
-{-w:p poc}{@text | convertHTML}
-{-w:p images}{%image}
+{#poc}{@text | convertMarkdown}{/poc}
+{#images}{%image}{images}
 Image {index}{caption | captionCheck}{/images}{/poc}
 
 ### Countermeasures
