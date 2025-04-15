@@ -50,4 +50,4 @@ Severity: {key}
 ```text
 {email | mailto}              // Create mailto link
 {text | linkTo: 'https://example.com'} // Create hyperlink
-``` 
+```
