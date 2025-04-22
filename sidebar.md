@@ -1,7 +1,7 @@
 - [Introduction](introduction) <!-- markdownlint-disable-line first-line-heading -->
 - [Quick Start](quick-start)
 - [Tags](tags)
-- [Template Data](template-data)
+- [Available Variables](variables)
 - [Loops](loops)
 - [Conditional Content](conditional-content)
 - [Filters](filters)
