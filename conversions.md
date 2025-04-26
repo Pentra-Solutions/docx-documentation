@@ -1,4 +1,5 @@
-# Converting HTML/Markwon to XML (docx format)
+# Conversions
+These special filters are used for converting HTML/Markdown fields to XML (the preferred docx format), so that they can be **rendered properly**.
 
 ## Converting HTML to XML
 
@@ -40,4 +41,4 @@ For Markdown content with images:
 {/description}
 ```
 
-?> We recomend using the makdown filter because it includes the html one too so it converts both markdown and HTML.
+?> We recomend using the markdown filter, since it can parse both Markdown and HTML at the same time.

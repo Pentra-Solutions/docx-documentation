@@ -6,6 +6,8 @@
 
 Templates are Microsoft Word documents (.docx) with special tags that get replaced with dynamic content. The template engine uses [docxtemplater](https://docxtemplater.com/) to process these tags and generate the final document.
 
+Check the [Quick Start](quick-start) section to create and use your first template.
+
 ## Common Issues and Solutions
 
 ### Missing Data
@@ -15,5 +17,3 @@ If a tag doesn't show up in the output document, the data field is likely missin
 ### HTML Formatting Issues
 
 Make sure the HTML is properly formed and use the `convertHTML` filter.
-
-?> **Need Help?** For additional assistance with template creation, refer to: [Docxtemplater Documentation](https://docxtemplater.com/docs/).

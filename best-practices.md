@@ -1,4 +1,4 @@
-# Best Practices for Templates
+# Best Practices
 
 1. **Use proper Word styles**: Define styles in your Word template for consistent formatting.
 2. **Test with sample data**: Create a test document with realistic data before finalizing.
@@ -16,3 +16,5 @@ For bullet and numbered lists to work correctly, make sure your template defines
 - **Code**: For code blocks
 
 For bullet and numbered lists, you'll need to ensure the numbering.xml file in your .docx template has the correct definitions. 
+
+?> **Need Help?** For additional assistance with template creation, refer to: [Docxtemplater Documentation](https://docxtemplater.com/docs/).

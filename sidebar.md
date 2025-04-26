@@ -5,8 +5,8 @@
 - [Loops](loops)
 - [Conditional Content](conditional-content)
 - [Filters](filters)
-- [Conversion](conversion)
+- [Conversions](conversions)
 - [Best Practices](best-practices)
-- [Example](example)
+- [Example Document](example)
 - **Links**
 - [![Logo](/assets/pentra-logo.png)](https://app.pentra.ai)

@@ -8,7 +8,10 @@ To iterate over arrays like `findings`, use loop tags:
 {/findings}
 ```
 
-For nested loops:
+Inside the loop, fields should not be prefixed by anything, since they will automatically use the information from each element individually. For example, you would write `{name}`, NOT `{findings[i].name`.
+
+### Nested Loops
+Loops can also be nested:
 
 ```text
 {#findings}
@@ -17,3 +20,5 @@ For nested loops:
   {/references}
 {/findings}
 ```
+
+Check the [example document](example) to see these in action.

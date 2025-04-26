@@ -1,4 +1,14 @@
-# Advanced Filters
+# Filters
+You can use filters to change the format of the text used to populate your template. Below is a list of all the options available:
+
+## Text Manipulation
+
+```text
+{text | upper}       // Uppercase
+{text | lower}       // Lowercase
+{text | capfirst}    // Capitalize first letter
+{text | initials}    // Get initials (e.g., "John Doe" → "J.D.")
+```
 
 ## Date Formatting
 
@@ -36,16 +46,8 @@ Severity: {key}
 {/findings | sort: 'orderNumber'}
 ```
 
-## Text Manipulation
 
-```text
-{text | upper}       // Uppercase
-{text | lower}       // Lowercase
-{text | capfirst}    // Capitalize first letter
-{text | initials}    // Get initials (e.g., "John Doe" → "J.D.")
-```
-
-## Linking (not working yet)
+## Linking (in development)
 
 ```text
 {email | mailto}              // Create mailto link

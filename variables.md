@@ -1,4 +1,4 @@
-# Available Data in Templates
+# Data Available via Tags
 
 ## Template-Specific Data
 
@@ -46,4 +46,11 @@ The `findings` array contains all vulnerabilities.
 - `{findings[i].poc}` - Proof of concept
 - `{findings[i].countermeasures}` - Countermeasures/Remediation steps
 - `{findings[i].references}` - References array
-- `{findings[i].orderNumber}` - Order number of the finding
+
+!> You do not actually have to write `findings[i]` before each tag, as it is done automatically. Check the [loops](loops) tab for more information.
+
+## Custom Data
+
+If the provided fields ar not enough, you can always add new fields from the Pentra web-app. New fields are specific for each template, and can be used in tags like this:
+
+`{customFields.CustomFieldName}`
